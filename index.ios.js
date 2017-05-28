@@ -10,7 +10,7 @@ import AlbumList from './src/components/AlbumList';
 //Self-closing tag if no text
 const App = () =>
   (
-    <View>
+    <View style={{ flex: 1 }}>
       <Header headerText={'Albums'} />
       <AlbumList />
     </View>
